@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixins";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-family;
+  font-weight: $fw-regular;
+  color: $neutral-700;
+  font-size: $font-size;
+}
+
+body {
+  height: 100vh;
+}
